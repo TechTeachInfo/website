@@ -119,15 +119,6 @@ a:hover {
     border: 3px solid white;
 }
 
-#over p:first-child {
-    padding-top: 2rem;
-    color: red;
-}
-
-#over p:last-child {
-    padding-bottom: 2rem;
-}
-
 #info h1 {
     color: #2f1886;
     text-align: center;

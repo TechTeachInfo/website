@@ -80,11 +80,6 @@
         width: 70%;
     }
 
-    #over p {
-        text-align: center;
-        padding: 0 1rem;
-    }
-
     /* programma */
     #programma p {
         text-align: left;
@@ -289,13 +284,6 @@
         width: 70%;
         margin: auto;
         display: block;
-    }
-
-    #over p {
-        text-align: center;
-        padding: 0 1rem;
-        width: 70%;
-        margin: 0 auto;
     }
 
     /* programma */
@@ -505,11 +493,6 @@
         display: block;
     }
 
-    #over p {
-        text-align: center;
-        padding: 0 1rem;
-    }
-
     /* programma */
     #programma p {
         text-align: left;
@@ -710,14 +693,6 @@
 
     #logo_large {
         display: none
-    }
-
-    /* over */
-    #over p {
-        text-align: center;
-        padding: 0 1rem;
-        width: 60%;
-        margin: 0 auto;
     }
 
     /* programma */

@@ -1,7 +1,6 @@
 ---
-title: "TechTeach - Homepage"
-date: 2018-03-06T17:27:48+07:00
-draft: true
+title: "Ben jij een programmeur in de dop?"
+subtitle: "Lijkt het je leuk om apps of websites te bouwen maar mis je de vaardigheden?"
 ---
 
 Dan ben je bij TechTeach op je plek. Tijdens onze TechTeach avonden wordt er op verschillende niveaus en over verschillende onderwerpen in de IT kennis doorgegeven. Laagdrempeligheid en verscheidenheid staan voorop: iedereen met elke achtergrond is welkom!
