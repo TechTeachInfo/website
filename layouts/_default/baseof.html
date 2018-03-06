@@ -19,80 +19,17 @@
     <link href="/css/nav-footer-styles.css" rel="stylesheet" type="text/css">
     <link href="/css/techteach-responsive.css" rel="stylesheet" type="text/css">
 
-    <link rel="apple-touch-icon-precomposed" sizes="57x57" href="/images/favicon.ico/apple-touch-icon-57x57.png" />
-    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="/images/favicon.ico/apple-touch-icon-114x114.png" />
-    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="/images/favicon.ico/apple-touch-icon-72x72.png" />
-    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="/images/favicon.ico/apple-touch-icon-144x144.png" />
-    <link rel="apple-touch-icon-precomposed" sizes="60x60" href="/images/favicon.ico/apple-touch-icon-60x60.png" />
-    <link rel="apple-touch-icon-precomposed" sizes="120x120" href="/images/favicon.ico/apple-touch-icon-120x120.png" />
-    <link rel="apple-touch-icon-precomposed" sizes="76x76" href="/images/favicon.ico/apple-touch-icon-76x76.png" />
-    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="/images/favicon.ico/apple-touch-icon-152x152.png" />
-    <link rel="icon" type="image/png" href="/images/favicon.ico/favicon-196x196.png" sizes="196x196" />
-    <link rel="icon" type="image/png" href="/images/favicon.ico/favicon-96x96.png" sizes="96x96" />
-    <link rel="icon" type="image/png" href="/images/favicon.ico/favicon-32x32.png" sizes="32x32" />
-    <link rel="icon" type="image/png" href="/images/favicon.ico/favicon-16x16.png" sizes="16x16" />
-    <link rel="icon" type="image/png" href="/images/favicon.ico/favicon-128.png" sizes="128x128" />
-    <meta name="application-name" content="&nbsp;"/>
-    <meta name="msapplication-TileColor" content="#FFFFFF" />
-    <meta name="msapplication-TileImage" content="mstile-144x144.png" />
-    <meta name="msapplication-square70x70logo" content="mstile-70x70.png" />
-    <meta name="msapplication-square150x150logo" content="mstile-150x150.png" />
-    <meta name="msapplication-wide310x150logo" content="mstile-310x150.png" />
-    <meta name="msapplication-square310x310logo" content="mstile-310x310.png" />
-</head>
-<body id="bootstrapOveride">
-<!--navigatiebar -->
-<!-- pagina vullende image/-->
-<nav id="hoofdNavBar">
-    <div class="flex-container-nav">
-        <div class="logo-fix">
-            <img src='images/Logo_small.png' alt="logo TechTeach" id="logo_small">
-        </div>
-        <img src='images/Logo_TechTeach_no_background-01.png' alt="logo TechTeach" id="logo_large">
-        <h1 id="brand">TechTeach</h1>
-    </div>
 
-    <ul>
-        <li><a href="https://www.facebook.com/techteachdeventer"><i class="fa fa-facebook" aria-hidden="true"></i></a>
-            <div class="text">Facebook</div>
-        </li>
-        <li><a href="https://www.instagram.com/techteachdeventer/"><i class="fa fa-instagram"
-                                                                      aria-hidden="true"></i></a>
-            <div class="text">Instagram</div>
-        </li>
-        <li><a href="https://www.linkedin.com/company/25079337/"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
-            <div class="text">Linkedin</div>
-        </li>
-        <li><a href="mailto:contact@techteach.info"><i class="fa fa-envelope" aria-hidden="true"></i></a>
-            <div class="text">Email us</div>
-        </li>
-    </ul>
-</nav>
+    {{ partial "header/fav-icons.html" . }}
+</head>
+<body>
+{{ partial "navigation/main-navigation.html" . }}
 
 {{ block "main" . }}
 {{ end }}
 
-<footer>
-    <h3>Vragen over de avonden en/of de programma’s? Mail naar:</h3>
-    <div><a href="mailto:contact@techteach.info">contact@techteach.info</a>
-    </div>
-    <div>
-        <ul>
-            <li class="social"><a href="https://www.facebook.com/techteachdeventer"><img
-                    src="images/social/Facebook_Icon.svg" class="hvr-bob"
-                    alt="Facebook TechTeach"></a></li>
-            <li class="social"><a href="https://www.instagram.com/techteachdeventer/"><img
-                    src="images/social/Instagram_icon.svg" class="hvr-bob" alt="Instagram TechTeach"></a></li>
-            <li class="social"><a href="https://www.linkedin.com/company/25079337/"><img
-                    src="images/social/Linkedin_icon.svg" class="hvr-bob" alt="Linkein TechTeach"></a></li>
-            <li class="social"><a href="mailto:contact@techteach.info"><img src="images/social/Email_icon-white.svg"
-                                                                            class="hvr-bob" alt="Email TechTeach"></a>
-            </li>
-        </ul>
-    </div>
-    <small>Webdesign en illustraties: <a href="http://yellibeanz.nl/"> www.yellibeanz.nl</a></small>
-</footer>
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+{{ partial "footer/site-footer.html" . }}
+{{ partial "footer/scripts.html" . }}
+
 </body>
 </html>
