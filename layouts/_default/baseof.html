@@ -1,25 +1,12 @@
 <!DOCTYPE html>
-<html lang="nl">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport"
-          content="width=device-width, initial-scale=1.0, maximum-scale=3.0, minimum-scale=1.0, user-scalable=yes">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <script src="https://use.fontawesome.com/87e9fc57ed.js"></script>
-    <meta name="geo.placename" content="Deventer">
-    {{ "<!--[if lt IE 9]>" | safeHTML }}
-        <script src="js/html5shiv.min.js"></script>
-    {{ "<![endif]-->" | safeHTML }}
+    {{ partial "header/meta.html" . }}
+    {{ partial "header/scripts.html" . }}
+
     <title>{{ .Title }}</title>
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/css/bootstrap.min.css"
-          integrity="sha384-Zug+QiDoJOrZ5t4lssLdxGhVrurbmBWopoEl+M6BdEfwnCJZtKxi1KgxUyJq13dy" crossorigin="anonymous">
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Courgette" rel="stylesheet">
-    <link href="/css/techteach-styles.css" rel="stylesheet" type="text/css">
-    <link href="/css/nav-footer-styles.css" rel="stylesheet" type="text/css">
-    <link href="/css/techteach-responsive.css" rel="stylesheet" type="text/css">
 
-
+    {{ partial "header/styles.html" . }}
     {{ partial "header/fav-icons.html" . }}
 </head>
 <body>
