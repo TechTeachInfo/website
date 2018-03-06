@@ -1,0 +1,19 @@
+<!--Sponsers-->
+<section id="sponsers">
+    <h1>{{ i18n "sponsors" . }}</h1>
+    <div>
+        <ul>
+        	{{ range $.Site.Data.sponsors.sponsor }}
+    				<li>
+    					<a href="{{ .link }}">
+    						{{ if isset . "image" }}
+    							<img src="{{ .image }}" alt="{{ .name }}"/>
+    						{{ else }}
+    							<p>{{ .name }}</p>
+    						{{ end }}
+    					</a>
+    				</li>
+					{{ end }}
+        </ul>
+    </div>
+</section>
