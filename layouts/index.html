@@ -118,23 +118,6 @@
         </ul>
     </div>
 </section>
-<!-- Ons Team -->
-<section id="team">
-    <h1>Ons team</h1>
-    <div class="flex-container">
-        <div class="flex-team"><img src="images/team/dries.jpg" alt="Dries Schulten">
-            <h3>Dries Schulten</h3></div>
-        <div class="flex-team"><img src="images/team/fransje.jpg" alt="Fransje Bongenaar">
-            <h3>Fransje Bongenaar</h3></div>
-        <div class="flex-team"><img src="images/team/yelitza.jpg" alt="Yelitza Jansen">
-            <h3>Yelitza Jansen</h3></div>
-        <div class="flex-team"><img src="images/team/elena.jpg" alt="Elena Fuentes Bongenaar">
-            <h3>Elena Fuentes Bongenaar</h3></div>
-        <div class="flex-team"><img src="images/team/myrthe.png" alt="Myrthe Wesseling">
-            <h3>Myrthe Wesseling</h3></div>
-        <div class="flex-team"><img src="images/team/daan.jpg" alt="Myrthe Wesseling">
-            <h3>Daan Ottink</h3></div>
-    </div>
-</section>
+{{ partial "team/main-team.html" . }}
 {{ partial "sponsors/main-sponsors.html" . }}
 {{ end }}

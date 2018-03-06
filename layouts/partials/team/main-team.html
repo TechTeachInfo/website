@@ -1,0 +1,12 @@
+<!-- Ons Team -->
+<section id="team">
+    <h1>{{ i18n "team" . }}</h1>
+    <div class="flex-container">
+        {{ range $.Site.Data.team.member }}
+            <div class="flex-team">
+                <img src="{{ .image }}" alt="{{ .name }}"/>
+                <h3>{{ .name }}</h3>
+            </div>
+        {{ end }}
+    </div>
+</section>
