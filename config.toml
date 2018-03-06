@@ -1,5 +1,6 @@
 baseURL = "https://techteach.info/"
 title = "TechTeach"
+DefaultContentLanguage = "nl"
 
 [languages]
 [languages.nl]
