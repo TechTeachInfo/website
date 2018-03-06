@@ -1,3 +1,9 @@
 baseURL = "https://techteach.info/"
-languageCode = "en-us"
 title = "TechTeach"
+
+[languages]
+[languages.nl]
+weight = 1
+
+[languages.en]
+weight = 2

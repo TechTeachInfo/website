@@ -7,10 +7,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <script src="https://use.fontawesome.com/87e9fc57ed.js"></script>
     <meta name="geo.placename" content="Deventer">
-    <!--[if lt IE 9]>
-    <script src="js/html5shiv.min.js"></script>
-    <![endif]-->
-    <title>TechTeach - Homepage</title>
+    {{ "<!--[if lt IE 9]>" | safeHTML }}
+        <script src="js/html5shiv.min.js"></script>
+    {{ "<![endif]-->" | safeHTML }}
+    <title>{{ .Title }}</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/css/bootstrap.min.css"
           integrity="sha384-Zug+QiDoJOrZ5t4lssLdxGhVrurbmBWopoEl+M6BdEfwnCJZtKxi1KgxUyJq13dy" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
