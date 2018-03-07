@@ -1,0 +1,25 @@
+<!--Wanneer, Waar en Hoe laat? -->
+<section id="info">
+    {{ range where .Data.Pages "Section" "events" | first 1 }}
+    <div><h1>{{ .Title }}</h1></div>
+    <div>
+        {{ .Content }}
+        <a href="https://www.facebook.com/techteachdeventer">
+            <div><h3>{{ i18n "aanmelden" . }}</h3></div>
+        </a>
+    </div>
+    <div><h3>{{ i18n "datum-overzicht" . }}</h3>
+        <ul>
+            {{ range where $.Site.Data.events.event (".date") ">" now }}
+                <li>
+                    <p>
+                        <b>{{ .date.Day }} {{ i18n (.date.Format "January") }}</b> <br/>
+                        <b>Tijd: </b>{{ .date.Format "15:04" }} tot {{ .dateEnd.Format "15:04" }} <br/>
+                        <b>Plaats: </b>{{ .location }}
+                    </p>
+                </li>
+            {{ end }}
+        </ul>
+    </div>
+    {{ end }}
+</section>

@@ -2,6 +2,13 @@
 - id: team
   translation: "Ons team"
 
+# Events
+- id: aanmelden
+  translation: "aanmelden"
+
+- id: datum-overzicht
+  translation: "Totale datumoverzicht"
+
 # Sponsors
 - id: sponsors
   translation: "Sponsors"
@@ -12,3 +19,29 @@
 
 - id: footer-author-text
   translation: "Webdesign en illustraties:"
+
+# Month names
+- id: January
+  translation: "januari"
+- id: Februari
+  translation: "februari"
+- id: March
+  translation: "maart"
+- id: April
+  translation: "april"
+- id: May
+  translation: "mei"
+- id: June
+  translation: "juni"
+- id: July
+  translation: "juli"
+- id: August
+  translation: "augustus"
+- id: Septemer
+  translation: "september"
+- id: October
+  translation: "oktober"
+- id: November
+  translation: "november"
+- id: December
+  translation: "december"

@@ -2,6 +2,10 @@
 - id: team
   translation: "Our team"
 
+# Events
+- id: aanmelden
+  translation: "sign up"
+
 # Sponsors
 - id: sponsors
   translation: "Sponsors"
