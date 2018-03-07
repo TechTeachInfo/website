@@ -3,8 +3,12 @@
 /* Small devices (landscape phones, 766px and up)*/
 @media (max-width: 766px) {
 
-    h1 {
+    h1, h3 {
         font-size: 1.4rem;
+    }
+
+    h4 {
+        font-size: 1.1rem;
     }
 
     /*navigatie*/
@@ -246,8 +250,12 @@
 /* Medium devices (tablets, 767px and up)*/
 @media (min-width: 767px) {
 
-    h1 {
+    h1, h3 {
         font-size: 1.5rem;
+    }
+
+    h4 {
+        font-size: 1.2rem;
     }
 
     video {
@@ -453,6 +461,10 @@
 
     h1 {
         font-size: 1.7rem;
+    }
+
+    h4 {
+        font-size: 1.4rem;
     }
 
     video {

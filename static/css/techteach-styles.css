@@ -38,14 +38,23 @@ h1, h2, h3 {
     position: relative;
 }
 
+b {
+    color: #84529C;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+/* Begin */
+
 .slogan {
     font-size: 65%;
     padding-left: 1.5rem;
 }
 
-.start_programma {
-    padding-top: 10px;
-    padding-bottom: 5px;
+.background-image {
+    background-image: url("../images/grey.png");
 }
 
 #programmeur_in_dop {
@@ -64,26 +73,52 @@ h1, h2, h3 {
 
 #omschrijving {
     text-align: left;
-    padding-left: 20%;
-    padding-right: 20%;
     padding-bottom: 2%;
 }
 
-b {
-    color: #84529C;
+#over {
+     border-bottom: 3px solid #84529C;
 }
 
-a:hover {
-    text-decoration: none;
+/* Testimonials */
+.carousel-indicators li {
+    background-color: #B1CAE8;
 }
 
+.carousel-indicators .active {
+    background-color: #2f1886;
+}
+
+#testimonials .carousel-indicators {
+    top: 0;
+    margin-right: 0;
+    margin-left: 0;
+}
+
+.carousel-inner {
+    padding-top: 5%;
+}
+
+#testimonials {
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+#testimonials img {
+    margin: 2% 0 2% 0;
+}
+
+.testimonial-titel {
+    padding-top: 5%;
+}
+
+/* Programma's */
 #programma .tab-content {
     background-color: #B1CAE8;
     padding-bottom: 2.5rem;
 }
 
 #programma h1 {
-    border-top: 3px solid #84529C;
     color: #84529C;
     padding-top: 2%;
     background-color: white;
@@ -119,6 +154,43 @@ a:hover {
     border: 3px solid white;
 }
 
+/*Feiten en Cijfers*/
+#cijfers p {
+    font-size: 70%;
+}
+
+#cijfers .container {
+    padding-bottom: 6%;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+#cijfers a {
+    color: #2d116d;
+    text-decoration: none;
+}
+
+#cijfers h1 {
+    padding-top: 4%;
+}
+
+.card {
+    border-color: #84529C;
+}
+
+.card h1 {
+    padding-top: 3%;
+}
+
+.card {
+    margin: 2%;
+}
+
+#cijfers {
+    border-bottom: 3px dotted #84529C;
+}
+
+/* Wat, waar en hoe laat */
 #info h1 {
     color: #2f1886;
     text-align: center;
@@ -148,6 +220,7 @@ a:hover {
     margin-top: 8%;
 }
 
+/* Team */
 #team div {
     border: 0;
 }
@@ -185,9 +258,9 @@ a:hover {
     margin: auto;
 }
 
-#team img {
+.round-img {
     width: 200px;
-    margin: 3rem 2rem 0 2rem;
+    margin: 1rem;
     border-radius: 50%;
     -webkit-box-shadow: 4px 6px 41px -10px rgba(0, 0, 0, 0.63);
     -moz-box-shadow: 4px 6px 41px -10px rgba(0, 0, 0, 0.63);

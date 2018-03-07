@@ -4,7 +4,7 @@
     <div class="flex-container">
         {{ range $.Site.Data.team.member }}
             <div class="flex-team">
-                <img src="{{ .image | relURL }}" alt="{{ .name }}"/>
+                <img class="round-img" src="{{ .image | relURL }}" alt="{{ .name }}"/>
                 <h3>{{ .name }}</h3>
             </div>
         {{ end }}

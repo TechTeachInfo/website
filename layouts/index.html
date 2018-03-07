@@ -5,9 +5,12 @@
     </div>
 </header>
 
-<section id="over"><h1 id="programmeur_in_dop">{{ .Title }}</h1>
+<section id="over" class="background-image">
+    <h1 id="programmeur_in_dop">{{ .Title }}</h1>
     <h4 id="onderzin">{{ .Params.subtitle }}</h4><br>
-    <div id="omschrijving">{{ .Content }}</div>
+    <div id="omschrijving" class="container">{{ .Content }}</div>
+
+    {{ partial "testimonials/main-testimonials.html" . }}
 </section>
 
 <img src="#" alt="">
