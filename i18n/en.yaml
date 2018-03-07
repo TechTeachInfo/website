@@ -4,7 +4,9 @@
 
 # Events
 - id: aanmelden
-  translation: "sign up"
+  translation: "aanmelden"
+- id: datum-overzicht
+  translation: "Upcoming dates"
 
 # Sponsors
 - id: sponsors
@@ -16,3 +18,29 @@
 
 - id: footer-author-text
   translation: "Webdesign and illustrations:"
+
+# Month names
+- id: January
+  translation: "January"
+- id: Februari
+  translation: "Februari"
+- id: March
+  translation: "March"
+- id: April
+  translation: "April"
+- id: May
+  translation: "May"
+- id: June
+  translation: "June"
+- id: July
+  translation: "July"
+- id: August
+  translation: "August"
+- id: Septemer
+  translation: "Septemer"
+- id: October
+  translation: "October"
+- id: November
+  translation: "November"
+- id: December
+  translation: "December"

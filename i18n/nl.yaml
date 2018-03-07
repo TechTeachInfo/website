@@ -5,7 +5,6 @@
 # Events
 - id: aanmelden
   translation: "aanmelden"
-
 - id: datum-overzicht
   translation: "Totale datumoverzicht"
 
