@@ -14,8 +14,8 @@
                 <li>
                     <p>
                         <b>{{ .date.Day }} {{ i18n (.date.Format "January") }}</b> <br/>
-                        <b>Tijd: </b>{{ .date.Format "15:04" }} tot {{ .dateEnd.Format "15:04" }} <br/>
-                        <b>Plaats: </b>{{ .location }}
+                        <b>{{ i18n "tijd" }} </b>{{ .date.Format "15:04" }} {{ i18n "tot" }} {{ .dateEnd.Format "15:04" }} <br/>
+                        <b>{{ i18n "plaats" }} </b>{{ .location }}
                     </p>
                 </li>
             {{ end }}

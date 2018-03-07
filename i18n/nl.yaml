@@ -7,6 +7,12 @@
   translation: "aanmelden"
 - id: datum-overzicht
   translation: "Totale datumoverzicht"
+- id: tijd
+  translation: "Tijd:"
+- id: tot
+  translation: "tot"
+- id: plaats
+  translation: "Plaats:"
 
 # Sponsors
 - id: sponsors
