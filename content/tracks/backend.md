@@ -9,6 +9,7 @@ description: |
   In dit programma leer je de basis van de programmeertaal Java. Vervolgens ga je een web backend ontwikkelen die kan reageren op verschillende verzoeken vanuit het web. De backend zal data gaan lezen en schrijven in een opslag systeem; een database genaamd PostgreSQL.
 intro: "In dit programma leer je de basis van de programmeertaal Java en databases. Dit zijn de bouwstenen voor het maken van een web-backend waarmee je uiteindelijk een werkend web systeem kunt bouwen. We beginnen met Java, duiken vervolgens in databases en bouwen als laatste een web backend met beide geleerde technieken."
 image: "images/tabs/Techteachbackend-01.png"
+order: 0
 ---
 
 ### Java met BlueJ

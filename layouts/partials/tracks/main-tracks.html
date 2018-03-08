@@ -1,0 +1,19 @@
+<section id="programma">
+    <h1>Onze programma's</h1>
+    <div>
+        {{ $list := (where (.Data.Pages.ByParam "order") "Section" "tracks") }}
+        <ul class="nav nav-pills justify-content-center">
+            {{ range $list }}
+            <li class="nav-item {{ if eq .Params.order 0 }} active {{ end }}">
+                <a data-toggle="tab" class="nav-link hvr-underline-from-center" href="#tab-{{ .Params.order }}">{{ .Title }}</a>
+            </li>
+            {{ end }}
+        </ul>
+
+        <div class="tab-content">
+            {{ range $list }}
+                {{ .Render "tab" }}
+            {{ end }}
+        </div>
+    </div>
+</section>

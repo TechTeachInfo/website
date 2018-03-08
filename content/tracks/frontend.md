@@ -9,6 +9,7 @@ description: |
   In dit programma leer je HTML, CSS en Javascript. HTML bevat de basis bouwstenen voor een website, met CSS kun je HTML meer opmaak geven en JavaScript dient voor het interactief maken van je pagina, dynamisch inladen van nieuwe informatie en snel visuele feedback kunnen geven aan je gebruikers.
 intro: "In dit programma leer je om websites te bouwen met HTML, CSS en JavaScript. Van ieder onderdeel zul je eerst een introductie krijgen daarna heb je de mogelijkheid om je verder te verdiepen in de verschillende onderdelen."
 image: "images/tabs/Techteachfrontend-01.png"
+order: 1
 ---
 
 ### Voorbereiding

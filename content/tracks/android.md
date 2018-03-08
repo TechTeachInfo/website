@@ -9,6 +9,7 @@ description: |
   In dit programma leer je de basis van Java en de Android SDK. We zullen gebruik maken van een echte telefoon (of eventueel de simulator) om de app te bouwen en uit te proberen.
 intro: "In dit programma leer je de basis van Java en de Android SDK. We zullen gebruik maken van een Android telefoon om de app te bouwen en uit te proberen. Deze pagina bevat ook instructies om de benodigde software op je computer te installeren zodat je direct kan starten met het programma."
 image: "images/tabs/Techteach-android-01.png"
+order: 2
 ---
 
 ### Toestel of Simulator
