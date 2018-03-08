@@ -1,250 +1,92 @@
 @charset "UTF-8";
 
-/* kleur codes
-Donkerpaars: #210658;
-Achtergrond beige: #FFFAF2;
-Paars: #84529C;
-Lichtblauw: #B1CAE8;
-*/
-
-/* fonts
-font-family: 'Open Sans', sans-serif;
-*/
-html {
-    font-size: 100%;
-}
-
-body {
-    background-color: white;
-    /*background-color: #eae8ff;*/
-    color: #2d116d;
-    font-family: 'Open Sans', sans-serif;
-    margin: 0;
-    padding: 0;
-    overflow-x: hidden;
-}
-
-h1, h2, h3 {
-    padding: 0 0.2rem;
-}
-
-/* nav */
-nav div {
-    text-align: left;
-}
-
-#brand a:link {
-    color: #B1CAE8;
-    background-color: transparent;
-    text-decoration: none;
-}
-
-#brand a:visited {
-    color: #B1CAE8;
-}
-
-/* nav */
-
-.padding {
+.track-content .padding {
     padding: 4%
 }
 
-.padding-below {
+.track-content .padding-below {
     padding-bottom: 3%;
 }
 
-.padding-top {
-    padding-top: 10%;
-!important;
+.track-content .padding-top {
+    padding-top: 10% !important;
 }
 
-/* footer */
-.social {
-    display: inline-block;
-}
 
-footer h3 {
-    color: white;
-    font-size: 1rem;
-    padding: 1.5rem 1rem;
-    text-align: center;
-    display: block;
-}
-
-footer small {
-    color: white;
-    display: block;
-    font-size: 0.8rem;
-    margin: auto;
-}
-
-footer ul li img {
-    display: inline-block;
-    width: 50px;
-    margin: 0.5rem;
-}
-
-footer div {
-    text-align: center;
-}
-
-footer ul {
-    list-style-type: none;
-    -webkit-margin-before: 0;
-    -webkit-margin-after: 0;
-    -webkit-margin-start: 0px;
-    -webkit-margin-end: 0px;
-    -webkit-padding-start: 0;
-}
-
-/* Einde footer */
-
-/* Header met TT video*/
-.image-container {
-    background-color: #2d067d;
-    padding-bottom: 2%;
-    padding-top: 2%
-}
-
-video {
-    width: 50%;
-    height: 100%;
-    margin: auto;
-    display: block;
-}
-
-/* Einde Header met TT video*/
-
-#android_programma_titel {
+.track-content .track-title {
     padding-bottom: 5%;
 }
 
-.light_blue {
+.track-content .light_blue {
     background-color: #B1CAE8;
 }
 
-.dotted {
+.track-content .dotted {
     padding: 2%;
     padding-bottom: 5%;
     border-style: dotted;
 }
 
-.dotted-top {
+.track-content .dotted-top {
     padding: 2%;
     padding-bottom: 5%;
     border-style: dotted;
     border-bottom: none;
 }
 
-.tussenkop {
+.track-content .track-text h3 {
     font-family: 'Frutiger', sans-serif;
     padding-top: 1%;
     padding-bottom: 2%;
 }
 
-.slogan {
+.track-content .slogan {
     text-align: right;
     color: #210658;
 }
 
-#introtext {
+.track-content .intro-text {
     font-size: larger;
 }
 
-#programma_inhoud {
+.track-content .track-text {
     background-color: #84529C;
     color: white;
     padding: 5%;
 }
 
-#connect {
+.track-content .connect {
     text-align: center;
 }
 
-.align-left {
+.track-content .align-left {
     text-align: left;
 }
 
-/* code image */
-#code_breed_img {
-    padding-top: 60px;
-    width: 50%
-}
-
-/* einde code image*/
 
 /* Links */
-a:link {
+.track-content a:link {
     color: #f7f7f7;
     background-color: transparent;
     text-decoration: underline;
 }
 
-a:visited {
+.track-content a:visited {
     color: #cfcfcf;
     background-color: transparent;
     text-decoration: none;
 }
 
-a:hover {
+.track-content a:hover {
     color: #cfcfcf;
     background-color: transparent;
     text-decoration: underline;
 }
 
-a:active {
+.track-content a:active {
     color: #808080;
     background-color: transparent;
     text-decoration: underline;
 }
 
 /* Einde Links */
-
-/* Responsive */
-
-@media (min-width: 767px) {
-    nav {
-        position: absolute;
-        z-index: 2;
-        top: 0;
-        width: 100%;
-        height: 75px;
-    }
-
-    h1 {
-        font-size: 1.5rem;
-    }
-}
-
-@media (min-width: 992px) {
-    nav {
-        position: absolute;
-        z-index: 2;
-        top: 0;
-        width: 100%;
-        height: 80px;
-    }
-
-    h1 {
-        font-size: 1.7rem;
-    }
-}
-
-@media (min-width: 1200px) {
-    nav {
-        position: absolute;
-        z-index: 2;
-        top: 0;
-        width: 100%;
-        height: 90px;
-    }
-
-    h1 {
-        font-size: 1.8rem;
-    }
-
-    /* footer */
-    footer h3 {
-        line-height: 200%;
-    }
-}

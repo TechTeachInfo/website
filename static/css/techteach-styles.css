@@ -48,11 +48,6 @@ a:hover {
 
 /* Begin */
 
-.slogan {
-    font-size: 65%;
-    padding-left: 1.5rem;
-}
-
 .background-image {
     background-image: url("../images/grey.png");
 }
