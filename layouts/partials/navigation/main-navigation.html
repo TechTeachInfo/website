@@ -1,24 +1,28 @@
-<nav id="hoofdNavBar">
-    <div class="flex-container-nav">
-        <div class="logo-fix">
-            <img src="{{ "images/Logo_small.png" | absURL }}" alt="logo TechTeach" id="logo_small">
-        </div>
-        <img src="{{ "images/Logo_TechTeach_no_background-01.png" | absURL }}" alt="logo TechTeach" id="logo_large">
-        <h1 id="brand">TechTeach</h1>
-    </div>
+<nav class="navbar">
+    <a href="{{ .Site.BaseURL }}" class="navbar-brand d-sm-none d-md-block">
+        <img src="{{ "images/Logo_TechTeach_no_background-01.png" | absURL }}" alt="logo TechTeach">
+        TechTeach
+    </a>
 
     <ul>
-        <li><a href="https://www.facebook.com/techteachdeventer"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+        <li>
+            <a href="#">
+                <i class="far fa-flag fa-2x" aria-hidden="true"></i>
+            </a>
             <div class="text">Facebook</div>
         </li>
-        <li><a href="https://www.instagram.com/techteachdeventer/"><i class="fa fa-instagram"
+
+        <li><a href="https://www.facebook.com/techteachdeventer"><i class="fab fa-facebook-f fa-2x" aria-hidden="true"></i></a>
+            <div class="text">Facebook</div>
+        </li>
+        <li><a href="https://www.instagram.com/techteachdeventer/"><i class="fab fa-instagram fa-2x"
                                                                       aria-hidden="true"></i></a>
             <div class="text">Instagram</div>
         </li>
-        <li><a href="https://www.linkedin.com/company/25079337/"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+        <li><a href="https://www.linkedin.com/company/25079337/"><i class="fab fa-linkedin fa-2x" aria-hidden="true"></i></a>
             <div class="text">Linkedin</div>
         </li>
-        <li><a href="mailto:contact@techteach.info"><i class="fa fa-envelope" aria-hidden="true"></i></a>
+        <li><a href="mailto:contact@techteach.info"><i class="far fa-envelope fa-2x" aria-hidden="true"></i></a>
             <div class="text">Email us</div>
         </li>
     </ul>
