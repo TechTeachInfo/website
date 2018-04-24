@@ -10,7 +10,7 @@
         <div class="carousel-inner">
             {{ range $index, $element := $list  }}
                 <div class="carousel-item item {{ if eq $index 0 }}active{{ end }} container">
-                    <div class="row justify-content-center">
+                    <div class="row  align-items-center">
                         <div class="col-md-4" align="center">
                             <img class="d-block round-img" src="{{ $element.Params.image }}" alt="First slide">
                         </div>

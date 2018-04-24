@@ -4,4 +4,8 @@ draft: false
 image: "images/team/fransje.jpg"
 ---
 
-Fransje Bongenaar lorem ipsum dolor sit amet, ei nec aeterno percipitur mediocritatem, consetetur inciderint ei mea, qui insolens sententiae elaboraret at. Sea no fugit ancillae appareat. Zril scaevola mnesarchum te mei, dolore vocibus cu est. Qui et prompta iuvaret. At quo forensibus democritum, mei id ipsum albucius.
+Na jarenlang in de zorg te hebben gewerkt ontdekte Fransje software testen. 
+Het testen van een programma of app is erg belangrijk om de kwaliteit van de software te bewaken. 
+Ze heeft zelf enige (gratis online) cursussen programmeren gedaan om ook geautomatiseerd testen op te pakken. 
+Verder heeft ze ervaring opgedaan bij 2 startups. 
+Wil je meer weten over testen, trek haar dan aan de mouw bij een TT avond!
