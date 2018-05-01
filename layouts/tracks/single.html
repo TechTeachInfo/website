@@ -10,9 +10,11 @@
             <div class="col-md-6">
                 <div class="row justify-content-between">
                     <h3 class="track-title">{{ .Title }}</h3>
-                    <a href="frontend_english.html">
-                        <button type="button" class="btn">English version</button>
+                    {{ range .Translations }}
+                    <a href="{{ .Permalink }}">
+                        <button type="button" class="btn">{{ .Lang }} version</button>
                     </a>
+                    {{ end }}
                 </div>
                 <div class="row">
                     {{ .Params.description | markdownify }}
