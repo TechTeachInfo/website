@@ -27,3 +27,23 @@ location = "Bibliotheek, Brink 70 Deventer"
 date = 2018-06-05T19:00:00+01:00
 dateEnd = 2018-06-05T21:30:00+01:00
 location = "Bibliotheek, Brink 70 Deventer"
+
+[[event]]
+date = 2018-06-12T19:00:00+01:00
+dateEnd = 2018-06-12T21:30:00+01:00
+location = "Bibliotheek, Brink 70 Deventer"
+
+[[event]]
+date = 2018-06-19T19:00:00+01:00
+dateEnd = 2018-06-19T21:30:00+01:00
+location = "Bibliotheek, Brink 70 Deventer"
+
+[[event]]
+date = 2018-06-26T19:00:00+01:00
+dateEnd = 2018-06-26T21:30:00+01:00
+location = "Bibliotheek, Brink 70 Deventer"
+
+[[event]]
+date = 2018-07-03T19:00:00+01:00
+dateEnd = 2018-07-03T21:30:00+01:00
+location = "Bibliotheek, Brink 70 Deventer"
