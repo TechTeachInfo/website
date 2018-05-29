@@ -13,7 +13,7 @@ order: 1
 ---
 
 ### Voorbereiding
-Voor dit programma heb je een tekstverwerker nodig. Microsoft Word is niet erg geschikt voor dit soort doeleinden en er bestaan tekstverwerkers die juist visuele ondersteuning geven bij het programmeren. Wij raden aan om Sublime Text te gebruiken; deze tekstverwerker is gratis en geeft je wat extra hulp bij het maken van HTML, CSS en JavaScript zowel visueel als bij het schrijven zelf. Sublime kun je hier downloaden.
+Voor dit programma heb je een tekstverwerker nodig. Microsoft Word is niet erg geschikt voor dit soort doeleinden en er bestaan tekstverwerkers die juist visuele ondersteuning geven bij het programmeren. Wij raden aan om Sublime Text te gebruiken; deze tekstverwerker is gratis en geeft je wat extra hulp bij het maken van HTML, CSS en JavaScript zowel visueel als bij het schrijven zelf. Sublime kun je [hier](https://www.sublimetext.com/) downloaden.
 
 ### Beginnen
 Het programma bestaat uit drie verschillende onderdelen:
