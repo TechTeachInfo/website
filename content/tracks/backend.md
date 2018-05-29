@@ -12,13 +12,14 @@ image: "images/tabs/Techteachbackend-01.png"
 order: 0
 ---
 
-### Java met BlueJ
+### Java op Codecademy
 
-We zullen gebruik maken van de BlueJ ontwikkelomgeving om Java te leren. BlueJ is een text editor en bevat alle benodigdheden om Java code te schrijven, te compileren en uit te voeren. BlueJ kun je [hier](https://bluej.org/) downloaden.
+We maken gebruik van de Java cursus die beschikbaar is op Codecademy. De curus bevat de nodige uitleg en vervolgens mag je zelf aan de slag om een probleem op te lossen met Java code. Je kunt het hele programma in je browser volgen en je hoeft er geen software voor op je computer te installeren.
 
-We gaan gebruiken maken van het digitale boek _Java with BlueJ_. Dit boek bestat uit twee delen, het eerste deel neemt je mee door de verschillende aspecten van het programmeren in Java. Het begint met een introductie en laat je vervolgens zelf aan de slag gaan met de kennis. Het boek biedt voorbeelden en opgaven om mee te gaan werken. Doorloop de lesstof vanaf het begin en breid je kennis uit naarmate je verder komt. Het boek kan je [hier](/files/JavaWithBlueJDeel1.pdf) vinden.
+Doorloop de volgende stappen om te beginnen:
 
-Als je na het doorlopen van het 1e deel dieper op Java in wil gaan is er ook een deel 2 van het boek. Dit boek gaat verder in op de stof die je hebt geleerd in het eerste deel. Hiervoor zijn verder geen extra benodigdheden vereist. Deel 2 kun je [hier](/files/JavaWithBlueJDeel2.pdf) vinden.
+* Ga naar [Codecademy](https://www.codecademy.com/) en maak een account aan.
+* Ga vervolgens naar de [Java cursus](https://www.codecademy.com/learn/learn-java)
 
 ### Databases
 
