@@ -42,3 +42,33 @@ location = "Bibliotheek, Brink 70 Deventer"
 date = 2018-06-26T19:00:00+01:00
 dateEnd = 2018-06-26T21:30:00+01:00
 location = "Bibliotheek, Brink 70 Deventer"
+
+[[event]]
+date = 2018-11-06T19:00:00+01:00
+dateEnd = 2018-11-06T21:30:00+01:00
+location = "Bibliotheek, Stromarkt 18 Deventer"
+
+[[event]]
+date = 2018-11-13T19:00:00+01:00
+dateEnd = 2018-11-13T21:30:00+01:00
+location = "Bibliotheek, Stromarkt 18 Deventer"
+
+[[event]]
+date = 2018-11-20T19:00:00+01:00
+dateEnd = 2018-11-20T21:30:00+01:00
+location = "Bibliotheek, Stromarkt 18 Deventer"
+
+[[event]]
+date = 2018-11-27T19:00:00+01:00
+dateEnd = 2018-11-27T21:30:00+01:00
+location = "Bibliotheek, Stromarkt 18 Deventer"
+
+[[event]]
+date = 2018-12-04T19:00:00+01:00
+dateEnd = 2018-12-04T21:30:00+01:00
+location = "Bibliotheek, Stromarkt 18 Deventer"
+
+[[event]]
+date = 2018-12-11T19:00:00+01:00
+dateEnd = 2018-12-11T21:30:00+01:00
+location = "Bibliotheek, Stromarkt 18 Deventer"
