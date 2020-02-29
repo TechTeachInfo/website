@@ -1,5 +1,5 @@
  <div id="testimonials" class="container">
-    {{ $list := (where .Data.Pages "Section" "testimonials") }}
+    {{ $list := (where .Site.Pages "Section" "testimonials") }}
     <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
         <ol class="carousel-indicators">
             {{ range $index, $element := $list  }}
