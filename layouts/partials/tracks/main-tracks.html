@@ -1,7 +1,7 @@
 <section id="programma">
     <h1>Onze programma's</h1>
     <div>
-        {{ $list := (where (.Data.Pages.ByParam "order") "Section" "tracks") }}
+        {{ $list := (where (.Site.Pages.ByParam "order") "Section" "tracks") }}
         <ul class="nav nav-pills justify-content-center">
             {{ range $list }}
             <li class="nav-item {{ if eq .Params.order 0 }} active {{ end }}">
